@@ -23,7 +23,7 @@ git clone https://github.com/Ore-an/asr_labs.git
 docker-compose build
 ```
 
-To start the server, simply run:
+To start the server, run:
 
 ```
 docker-compose up

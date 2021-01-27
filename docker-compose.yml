@@ -1,0 +1,9 @@
+version: "3.9"  # optional since v1.27.0
+services:
+    asr_lab:
+        build: .
+        ports:
+            - "8888:8888"
+        volumes:
+            - "../asr_labs/:/asr_labs/"
+        image: "asr_lab"
